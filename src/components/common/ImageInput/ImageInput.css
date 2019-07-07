@@ -1,0 +1,70 @@
+.dropzone-container {
+  text-align: center;
+}
+
+.dropzone {
+  position: relative;
+  width: 15vw;
+  height: 15vw;
+  margin: auto;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .dropzone {
+    width: 45vw;
+    height: 45vw;
+  }
+}
+
+.dropzone > .dropzone-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.dropzone > img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.dropzone > .dropzone-content {
+  height: 100%;
+  z-index: 2;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropzone > .dropzone-content p {
+  color: white;
+  margin: 0;
+  opacity: 0;
+  font-size: 1.5em;
+}
+
+.dropzone:hover > img,
+.dropzone.dragging > img {
+  opacity: 0.2;
+}
+
+.dropzone:hover > .dropzone-content,
+.dropzone.dragging > .dropzone-content {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dropzone:hover > .dropzone-content p,
+.dropzone.dragging > .dropzone-content p {
+  opacity: 1;
+}

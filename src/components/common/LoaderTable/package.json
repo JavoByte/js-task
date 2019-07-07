@@ -1,0 +1,6 @@
+{
+  "name": "LoaderTable",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./LoaderTable.js"
+}

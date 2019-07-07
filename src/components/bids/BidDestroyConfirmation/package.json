@@ -1,0 +1,6 @@
+{
+  "name": "BidDestroyConfirmation",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BidDestroyConfirmation.js"
+}

@@ -1,0 +1,45 @@
+.navbar {
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(left, #ffffff 18%, #324495 70%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ffffff 18%,#324495 70%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ffffff 18%,#324495 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.content {
+  background-color: white;
+}
+
+table > tbody > tr > td > .btn {
+  margin-top: -0.25rem;
+}
+
+table > tbody > tr:last-child > td  {
+  border-bottom: 2px solid #ededed;
+}
+
+table > tbody > tr > td > .btn.btn-outline-dark {
+  background-color: white;
+}
+
+table > tbody > tr > td > .btn.btn-outline-dark:hover {
+  background-color: black
+}
+
+@media (min-width: 769px) {
+  body {
+    background-color: #ededed;
+  }
+
+  .content {
+    border-radius: 5px;
+  }
+
+  .pagination-table-container {
+    min-height: 572px
+  }
+}
+
+
+tr[role="button"] {
+  cursor: pointer;
+}

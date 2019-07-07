@@ -1,0 +1,6 @@
+{
+  "name": "MerchantsContainer",
+  "main": "./MerchantsContainer.js",
+  "version": "0.0.0",
+  "private": true
+}

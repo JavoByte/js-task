@@ -1,0 +1,6 @@
+{
+  "name": "DestroyConfirmation",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DestroyConfirmation.js"
+}

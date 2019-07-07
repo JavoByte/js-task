@@ -1,0 +1,6 @@
+{
+  "name": "BidsContainer",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BidsContainer.js"
+}

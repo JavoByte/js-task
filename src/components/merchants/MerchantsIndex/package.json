@@ -1,0 +1,6 @@
+{
+  "name": "MerchantsIndex",
+  "main": "./MerchantsIndex.js",
+  "private": true,
+  "version": "0.0.0"
+}

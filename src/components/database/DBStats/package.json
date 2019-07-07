@@ -1,0 +1,6 @@
+{
+  "name": "DBStats",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DBStats.js"
+}

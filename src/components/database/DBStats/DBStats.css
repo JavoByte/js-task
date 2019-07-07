@@ -1,0 +1,19 @@
+.stats-card .card-body {
+  position: relative;
+}
+
+.stats-card .seed-btn-container {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+.seed-btn-container .btn {
+  text-decoration: none;
+  font-size: 80%;
+}
+
+.seed-btn-container .btn:hover {
+  background-color: var(--blue);
+  color: white;
+}
